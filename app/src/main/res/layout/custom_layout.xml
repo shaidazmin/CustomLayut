@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#8b00b2ff"
+    android:id="@+id/myLayout"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="10sp"
+        android:textSize="30sp"
+        android:id="@+id/textView"
+        android:textColor="#ffff"
+        android:textStyle="bold|italic"
+        android:text="This is Custom Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280sp"
+        android:src="@drawable/animal"
+        />
+
+</LinearLayout>
